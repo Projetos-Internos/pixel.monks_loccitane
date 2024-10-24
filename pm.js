@@ -1,4 +1,6 @@
 function APIMM(eventObjectLocal) {
+  const PROD_ENDPOINT = "https://loccitane.pixemonks.tech/pixel";
+
   fetch("https://loccitane-server-side-tagging-preview-955152027614.southamerica-east1.run.app/pixel://gtm-cloud-image-mq5jeuyd7a-uc.a.run.app/pixel", {
     method: "POST",
     headers: {
